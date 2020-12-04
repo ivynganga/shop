@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+import { View, Text } from 'react-native';
+
+
+
+export default function settings() {
+  return (
+    <View 
+      style = {{
+          flex: 1, 
+          alignItems: 'center',
+          justifyContent: 'center'
+          }}>
+      <Text>Settings Screen</Text>
+    </View>
+  );
+}
+
+//export default home;

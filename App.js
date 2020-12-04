@@ -1,6 +1,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+//http://dev.sawasawa.com:8081/ivy/array.txt
+
 const HelloWorldApp = () => {
   return (
     <View
@@ -9,7 +11,7 @@ const HelloWorldApp = () => {
         justifyContent: "center",
         alignItems: "center"
       }}>
-      <Text>Hello, world!</Text>
+      <Text>{`Hi,\nSuch a nice surprise!`}</Text>
     </View>
   )
 }
